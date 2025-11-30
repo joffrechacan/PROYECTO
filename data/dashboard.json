@@ -1,0 +1,32 @@
+{
+  "ventasMensuales": [500, 700, 800, 1500, 2000, 2500, 2100, 1800, 1600, 2200, 2700, 3000],
+
+  "meses": [
+    "Enero",
+    "Febrero",
+    "Marzo",
+    "Abril",
+    "Mayo",
+    "Junio",
+    "Julio",
+    "Agosto",
+    "Septiembre",
+    "Octubre",
+    "Noviembre",
+    "Diciembre"
+  ],
+
+  "ingresosPorProducto": {
+    "Camiseta": 1200,
+    "Hoodie": 2400,
+    "Baggy": 1800,
+    "Crop Top": 1500,
+    "Puffer": 2100,
+    "Cargo": 1700
+  },
+
+  "ventasCategorias": {
+    "Hombre": 60,
+    "Mujer": 40
+  }
+}
