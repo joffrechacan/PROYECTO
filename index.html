@@ -10,6 +10,7 @@
 
   </head>
   <body>
+    <!--Navbar-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container">
         <a class="navbar-brand" href="index.html">STREET LINE</a>
@@ -36,17 +37,17 @@
         </div>
       </div>
     </nav>
-
+  <!--carrusel de fotos-->
   <div id="carouselStreet" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img src="img/carrusel1.webp" class="d-block w-100">
     </div>
     <div class="carousel-item">
-      <img src="..." class="d-block w-100">
+      <img src="img/carrusel2.webp" class="d-block w-100">
     </div>
     <div class="carousel-item">
-      <img src="..." class="d-block w-100">
+      <img src="img/carrusel3.webp" class="d-block w-100">
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselStreet" data-bs-slide="prev">
@@ -58,11 +59,21 @@
     <span class="visually-hidden">Next</span>
   </button>
 </div>
+
+<div class="container my-5">
+  <h2 class="text-center mb-4">Productos En Tendencia</h2>
+  <div class="row" id="contenedorRopa">
+    <!-- Productos cargados desde JSON -->
+  </div>
+</div>
+
   
-    <footer class="bg-dark text-center text-white py-3">
+  <footer class="bg-dark text-center text-white py-3">
     <small>&copy; 2025 Street Line. Todos los derechos reservados.</small>
   </footer>
 
   </body>
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/index.js"></script>
 </html>

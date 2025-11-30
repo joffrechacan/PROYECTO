@@ -1,3 +1,8 @@
 .banner {
   background: linear-gradient(135deg, #111, #444);
 }
+.card-img-top {
+    height: 550px; 
+    object-fit: cover;
+    width: 100%;
+}

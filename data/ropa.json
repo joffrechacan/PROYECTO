@@ -1,10 +1,46 @@
-[
+{
+  "productos": [
     {
-        "id" : 1,
-        "nombre" : "Camiseta oversize",
-        "precio" : 15,
-        "stock" : 45,
-        "descripción" : "",
-        "imagen" : ""
+      "id": 1,
+      "nombre": "Camiseta Básica Oversize",
+      "precio": 15.99,
+      "imagen": "img/camiseta_oversize.webp",
+      "descripcion": "Camiseta amplia de algodón suave con un estilo minimalista ideal para outfits urbanos."
+    },
+    {
+      "id": 2,
+      "nombre": "Hoodie Boxy",
+      "precio": 35.99,
+      "imagen": "img/hoodie_boxy_hombre.jpg",
+      "descripcion": "Sudadera con capucha estilo Boxy Fit, acabados premium y bolsillo canguro."
+    },
+    {
+      "id": 3,
+      "nombre": "Pantalón Baggy",
+      "precio": 29.99,
+      "imagen": "img/baggy_jeans_hombre.jpg",
+      "descripcion": "Jean baggy de denim resistente con fit amplio y cómodo, ideal para un estilo urbano moderno."
+    },
+    {
+      "id": 4,
+      "nombre": "Crop Top Oversize",
+      "precio": 14.99,
+      "imagen": "img/crop_top.webp",
+      "descripcion": "Top holgado estilo streetwear, perfecto para combinar con joggers o cargo pants."
+    },
+    {
+      "id": 5,
+      "nombre": "Chaqueta Puffer",
+      "precio": 49.99,
+      "imagen": "img/chaqueta_puffer.webp",
+      "descripcion": "Chaqueta puffer ligera y acolchada, ideal para mantenerte abrigada con un estilo urbano moderno."
+    },
+    {
+      "id": 6,
+      "nombre": "Pantalón Cargo Mujer",
+      "precio": 29.99,
+      "imagen": "img/cargo_mujer.webp",
+      "descripcion": "Pantalón cargo femenino con corte relajado y bolsillos laterales."
     }
-]
+  ]
+}
